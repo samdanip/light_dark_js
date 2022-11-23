@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 :root {
   --primary-color: rgb(255, 92, 92);
   --primary-variant: #ff2d2d;
@@ -24,6 +26,7 @@ html {
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   margin: 0;
   color: var(--on-background);
   background-color: var(--background);
@@ -250,4 +253,8 @@ input:checked + .slider::before {
 .fas {
   font-size: 30px;
   margin-right: 5px;
+}
+
+.fa-moon {
+  margin-left: 15px;
 }
